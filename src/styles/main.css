@@ -3,7 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #fc1e8a;
+    background-image: url('../images/back.avif'); /* Certifique-se de que o caminho está correto */
+    background-size: cover;
+    background-position: center;
     user-select: none;
 }
 
@@ -14,13 +16,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: linear-gradient(325deg, #03001e 0%, #7303c0 30%, #ec38bc 70%, #fdeff9 100%);
+    background: linear-gradient(325deg, #ffffffe9 0%, #248124 30%, #307430 70%, #114f11 100%);
     padding: 40px 60px;
 }
 
+
 h2 {
     font-size: 3em;
-    color: #fff;
+    color: greenyellow;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -29,7 +32,7 @@ h2 {
     padding: 15px 20px;
     width: 100%;
     color: #000;
-    background-color: #fff;
+    background-color: greenyellow;
     border: none;
     font-size: 1.5em;
     letter-spacing: 0.1em;
@@ -60,7 +63,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: greenyellow;
     font-size: 3em;
     transform: rotateY(180deg);
     transition: 0.25s;
